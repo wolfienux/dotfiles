@@ -1,8 +1,7 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-# tap 'macvim-dev/macvim'
-# tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'macvim-dev/macvim'
 
 # Install ZSH and plugins/themes
 brew 'zsh'
@@ -33,7 +32,7 @@ cask 'rectangle' # A Spectacle replacement
 cask 'firefox'
 cask 'google-chrome'
 cask 'transmit'
-# cask 'vlc'
+cask 'vlc'
 cask 'timing'
 
 # Fonts
